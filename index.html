@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday</title>
+<!-- Published at saravanantm.github.io/birthday-911 (the first link she got); points to the real site -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 1.25rem;
+    background: radial-gradient(120% 90% at 50% 0%, #f4f6f9 0%, #dfe7f0 55%, #c9d8e8 100%);
+    font-family: 'Cormorant Garamond', Georgia, serif; color: #111;
+  }
+  .card {
+    width: min(440px, 100%); background: #fbfaf7; border-top: 4px solid #8fb0d3; text-align: center;
+    padding: clamp(1.8rem, 6vw, 2.8rem); box-shadow: 0 30px 70px rgba(30,50,80,.22), 0 2px 6px rgba(0,0,0,.06);
+    animation: in .9s cubic-bezier(.2,.8,.2,1);
+  }
+  @keyframes in { from { opacity: 0; transform: translateY(24px) rotate(-1.5deg); } }
+  .kicker { font-family: 'Michroma', sans-serif; font-size: .6rem; letter-spacing: .35em; text-transform: uppercase; color: #5a5f66; }
+  h1 { font-family: 'Michroma', sans-serif; font-weight: 400; letter-spacing: .2em; font-size: clamp(1.15rem, 5vw, 1.6rem); margin: .9rem 0 1.2rem; }
+  p { font-size: 1.15rem; line-height: 1.65; }
+  p + p { margin-top: .9rem; }
+  .sign { font-style: italic; text-align: right; margin-top: 1.2rem; }
+  a.btn {
+    display: inline-block; margin-top: 1.8rem; padding: .95rem 1.8rem; border-radius: 999px; text-decoration: none;
+    background: #15171b; color: #b7cde4; font-family: 'Michroma', sans-serif; font-size: .62rem;
+    letter-spacing: .25em; text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="kicker">A little note</div>
+    <h1>Not this one</h1>
+    <p>I made this one a while back — and I never wanted you to open it and end up let down or upset.</p>
+    <p>So here's where your real birthday wish from me lives now. Go take a look.</p>
+    <p class="sign">— Saravanan</p>
+    <a class="btn" href="https://saravanantm.github.io/mera-anjali-birthday/">Open my birthday wish</a>
+  </div>
+</body>
+</html>
